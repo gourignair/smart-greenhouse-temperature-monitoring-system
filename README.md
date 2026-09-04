@@ -1,81 +1,107 @@
-# Smart Greenhouse Temperature Monitoring System
+# 🌱 Smart Greenhouse Temperature Monitoring System
+
+![Prototype](images/prototype_overview.jpg)
 
 ## Overview
-This project is an embedded greenhouse monitoring system designed to continuously monitor temperature and automatically actuate a ventilation mechanism when user-defined temperature thresholds are exceeded.
+This project is an embedded greenhouse monitoring system that monitors temperature in real time and automatically actuates a ventilation mechanism when a user-defined threshold is exceeded.
 
-The system combines embedded programming, PCB design, CAD modelling, mechanical design, and hardware integration into a complete prototype.
+The project combines embedded software, PCB design, CAD modelling, electronics, and mechanical design into a complete engineering prototype.
 
 
 ## Features
-- Real-time temperature monitoring using the BMP180 sensor
-- OLED display for live system information
-- User-configurable temperature thresholds
-- Automatic servo-controlled greenhouse window
-- Audible buzzer alerts
+- Real-time temperature monitoring using a BMP180 sensor
+- OLED display with live temperature readings
 - Interactive menu system
-- Serial monitoring for debugging
+- User-configurable temperature thresholds
+- Automatic servo-controlled window mechanism
+- Audible buzzer alerts
+- Serial debugging interface
+
+
 
 
 ## Hardware
-- Arduino-compatible MCU
 - BMP180 Temperature Sensor
 - OLED Display
 - SG90 Servo Motor
 - Potentiometer
 - Push Buttons
 - Buzzer
-
-
-
-## Software
-- Arduino IDE
-- C++
-- Servo Library
-- Adafruit SSD1306
-- BMP180 Library
+- Custom PCB
 
 
 
 ## PCB Design
-The PCB was designed in Autodesk Eagle.
+![PCB Layout](images/pcb_layout.png)
 
-The design includes:
-- Custom schematic
-- PCB layout
-- I²C communication
-- Pull-up resistors
-- Design Rule Check (DRC)
-- Electrical Rule Check (ERC)
+![PCB Schematic](images/pcb_schematic.png)
+
+The PCB was designed in Autodesk Eagle. The design integrates the sensor, OLED display, user controls, servo interface, and supporting circuitry while remaining within the project constraints.
 
 
 
 ## Mechanical Design
-Mechanical components were designed in Fusion 360.
+![CAD Assembly](images/cad_assembly.png)
 
-These include:
-- Servo Mount
-- Roof Mount
-- Complete Assembly
+Mechanical components were designed in Autodesk Fusion 360.
 
-The enclosure was designed to integrate both the electronics and the mechanical window mechanism.
+The assembly includes:
+
+- Servo mount
+- Roof mount
+- Integrated enclosure
+- Window actuation mechanism
 
 
-## Demonstration
-A demonstration video of the completed project is included in this repository.
+
+## User Interface
+
+### Monitoring Screen
+![OLED](images/oled_monitoring_screen.jpg)
+
+Displays the current temperature and selected threshold.
+
+### Menu
+![Menu](images/oled_menu.jpg)
+
+Allows users to configure temperature thresholds using push buttons.
+
+
+
+## Firmware
+The firmware is located in the `firmware/` directory and implements:
+
+- Sensor acquisition
+- OLED interface
+- User menu
+- Servo control
+- Buzzer alerts
+- Serial debugging
+
+
+
+## Project Structure
+```text
+firmware/
+pcb/
+cad/
+images/
+docs/
+```
 
 
 
 ## Future Improvements
 - Wi-Fi connectivity
-- Cloud monitoring dashboard
-- Mobile application
-- Automatic data logging
+- Cloud dashboard
 - Humidity monitoring
-- Machine learning for predictive climate control
+- Data logging
+- Mobile application
+- Predictive climate control using machine learning
 
 
 
 ## Author
-**Gouri Girish Nair**
-University of Kent
+Gouri Girish Nair
 Electronic & Computer Engineering
+University of Kent
