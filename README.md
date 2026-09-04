@@ -1,11 +1,15 @@
 # 🌱 Smart Greenhouse Temperature Monitoring System
 
-![Prototype](images/prototype_overview.jpg)
+<p align="center">
+  <img src="images/prototype_overview.jpg" width="550">
+</p>
 
 ## Overview
-This project is an embedded greenhouse monitoring system that monitors temperature in real time and automatically actuates a ventilation mechanism when a user-defined threshold is exceeded.
+The Smart Greenhouse Temperature Monitoring System is an embedded systems project designed to monitor greenhouse temperature in real time and automatically actuate a ventilation mechanism when user-defined thresholds are exceeded.
 
-The project combines embedded software, PCB design, CAD modelling, electronics, and mechanical design into a complete engineering prototype.
+This project integrates embedded programming, custom PCB design, CAD modelling, mechanical design, and hardware integration into a complete working prototype.
+
+Developed as part of my Electronic & Computer Engineering degree at the University of Kent.
 
 
 ## Features
@@ -20,14 +24,29 @@ The project combines embedded software, PCB design, CAD modelling, electronics, 
 
 
 
-## Hardware
+## Technologies Used
+### Hardware
 - BMP180 Temperature Sensor
-- OLED Display
+- OLED Display (I²C)
 - SG90 Servo Motor
 - Potentiometer
 - Push Buttons
 - Buzzer
-- Custom PCB
+
+### Software
+- Arduino IDE
+- C++
+- Autodesk Eagle
+- Autodesk Fusion 360
+
+### Skills Demonstrated
+- Embedded Systems
+- PCB Design
+- CAD Modelling
+- Electronics
+- Sensor Integration
+- Firmware Development
+- Hardware Debugging
 
 
 
@@ -89,8 +108,6 @@ images/
 docs/
 ```
 
-
-
 ## Future Improvements
 - Wi-Fi connectivity
 - Cloud dashboard
@@ -99,6 +116,27 @@ docs/
 - Mobile application
 - Predictive climate control using machine learning
 
+
+## What I Learned
+
+This project strengthened my understanding of the complete embedded systems design process, including:
+
+- PCB design and validation using Autodesk Eagle
+- Mechanical design using Fusion 360
+- Integrating hardware and software into a complete system
+- Designing user interfaces for embedded devices
+- Debugging hardware and firmware interactions
+- Iterative engineering design and testing
+
+## Engineering Challenges
+During development I encountered several practical engineering challenges:
+
+- PCB routing became difficult due to limited board space, requiring manual trace optimisation.
+- Initial I²C communication issues were resolved by adding the appropriate pull-up resistors.
+- Servo instability was addressed through power supply improvements and software timing adjustments.
+- Sensor calibration was refined through iterative testing and validation.
+
+These challenges reinforced the importance of systematic debugging and iterative engineering design.
 
 
 ## Author
