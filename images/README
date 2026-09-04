@@ -1,0 +1,34 @@
+# 🌱 Smart Greenhouse Temperature Monitoring System
+
+![Prototype](images/prototype_overview.jpg)
+
+---
+
+## Overview
+
+...
+
+
+## PCB Design
+
+![PCB](images/pcb_layout.png)
+
+The PCB was designed in Autodesk Eagle...
+
+
+
+
+
+## CAD Design
+
+![CAD](images/cad_assembly.png)
+
+
+
+
+
+## User Interface
+
+![OLED](images/oled_monitoring_screen.jpg)
+
+![Menu](images/oled_menu.jpg)
