@@ -1,7 +1,7 @@
 # 🌱 Smart Greenhouse Temperature Monitoring System
 
 <p align="center">
-  <img src="images/prototype_overview.jpg"
+  <img src="images/prototype_overview.png"
        alt="Smart Greenhouse Prototype"
        width="550">
 </p>
