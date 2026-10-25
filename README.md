@@ -119,8 +119,6 @@ The firmware is located in the `firmware/` directory and implements:
 - Serial debugging
 
 
-
-
 ## Project Structure
 
 ```text
