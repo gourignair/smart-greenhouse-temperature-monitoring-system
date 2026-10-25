@@ -120,22 +120,54 @@ The firmware is located in the `firmware/` directory and implements:
 
 
 
+
 ## Project Structure
+
 ```text
-firmware/
-pcb/
-cad/
-images/
-docs/
+smart-greenhouse-temperature-monitoring-system/
+├── README.md
+├── LICENSE
+├── firmware/
+├── pcb/
+├── cad/
+├── images/
+└── docs/
 ```
 
-## Future Improvements
-- Wi-Fi connectivity
-- Cloud dashboard
-- Humidity monitoring
-- Data logging
-- Mobile application
-- Predictive climate control using machine learning
+## Results and Testing
+
+The completed greenhouse monitoring prototype
+successfully demonstrated temperature sensing,
+user-configurable thresholds, servo actuation,
+and audible alerts.
+
+### Functional Testing
+
+| Function | Observed Result |
+|---|---|
+| Temperature monitoring | Real-time readings displayed on OLED |
+| Threshold selection | 25°C, 26°C and 27°C selectable |
+| High-temperature response | Servo rotates to 90° |
+| Normal-temperature response | Servo returns to 0° |
+| Audible alert | Two short buzzer beeps when threshold is exceeded |
+| Serial monitoring | Temperature readings output for debugging |
+
+### Testing and Troubleshooting
+
+During testing, I encountered and resolved several
+hardware and software integration challenges,
+including unstable servo movement, incorrect sensor
+readings and PCB communication issues.
+
+### Limitations
+
+The current system uses threshold-based actuation
+rather than predictive or continuously modulated
+temperature control.
+
+Future testing could measure sensor accuracy,
+actuation response time and long-term reliability.
+
 
 
 ## What I Learned
@@ -160,7 +192,13 @@ During development I encountered several practical engineering challenges:
 These challenges reinforced the importance of systematic debugging and iterative engineering design.
 
 
+
 ## Author
-Gouri Girish Nair
-Electronic & Computer Engineering
-University of Kent
+
+**Gouri Girish Nair**
+
+BEng (Hons) Electronic & Computer Engineering  
+University of Kent, United Kingdom
+
+Individual undergraduate engineering project.
+
