@@ -94,12 +94,6 @@ user-selected temperature threshold.
 
 <h3>Temperature Threshold Selection</h3>
 
-<p align="center">
-  <img src="images/oled_menu.png"
-       alt="OLED temperature selection menu"
-       width="450">
-</p>
-
 <p>
 The interface allows users to choose between
 three predefined temperature thresholds:
