@@ -75,17 +75,42 @@ The assembly includes:
 
 
 
-## User Interface
 
-### Monitoring Screen
-![OLED](images/oled_monitoring_screen.jpg)
+<h2>User Interface</h2>
 
-Displays the current temperature and selected threshold.
+<h3>Temperature Monitoring</h3>
 
-### Menu
-![Menu](images/oled_menu.jpg)
+<p align="center">
+  <img src="images/oled_monitoring_screen.png"
+       alt="OLED temperature monitoring display"
+       width="450">
+</p>
 
-Allows users to configure temperature thresholds using push buttons.
+<p>
+The OLED display provides real-time temperature
+readings from the BMP180 sensor, alongside the
+user-selected temperature threshold.
+</p>
+
+<h3>Temperature Threshold Selection</h3>
+
+<p align="center">
+  <img src="images/oled_menu.png"
+       alt="OLED temperature selection menu"
+       width="450">
+</p>
+
+<p>
+The interface allows users to choose between
+three predefined temperature thresholds:
+25°C, 26°C and 27°C.
+
+The potentiometer is used to navigate between
+threshold options, while the S3 push button
+confirms the selection. The S2 button returns
+the user to the menu.
+</p>
+
 
 
 
