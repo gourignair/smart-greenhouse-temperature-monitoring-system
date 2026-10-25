@@ -1,9 +1,11 @@
 # 🌱 Smart Greenhouse Temperature Monitoring System
 
 <p align="center">
-  <img src="images/prototype_overview.jpg" width="550">
+  <img src="images/prototype_overview.jpg"
+       alt="Smart Greenhouse Prototype"
+       width="550">
 </p>
-
+  
 ## Overview
 The Smart Greenhouse Temperature Monitoring System is an embedded systems project designed to monitor greenhouse temperature in real time and automatically actuate a ventilation mechanism when user-defined thresholds are exceeded.
 
