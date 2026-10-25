@@ -81,7 +81,7 @@ The assembly includes:
 <h3>Temperature Monitoring</h3>
 
 <p align="center">
-  <img src="images/oled_monitoring_screen.png"
+  <img src="images/oled_screen.png"
        alt="OLED temperature monitoring display"
        width="450">
 </p>
